@@ -5,14 +5,14 @@ This repository is the official implementation of "[Learning Causal Semantic Rep
 [Chang Liu][changliu] \<<changliu@microsoft.com>\>,
 Xinwei Sun, Jindong Wang, Haoyue Tang, Tao Li, Tao Qin, Wei Chen, Tie-Yan Liu.
 
-![graphical summary](./csg-intro.png)
-
 \[[Paper & Appendix](https://changliu00.github.io/causupv/causupv.pdf)\]
 \[[Slides](https://changliu00.github.io/causupv/causupv-slides.pdf)\]
 \[[Video](https://recorder-v3.slideslive.com/?share=52713&s=7a03cf16-4993-4e27-8502-7461239c487d)\]
 \[[Poster](https://changliu00.github.io/causupv/causupv-poster.pdf)\]
 
 ## Introduction
+
+![graphical summary](./csg-intro.png)
 
 The work proposes a Causal Semantic Generative model (CSG) for OOD generalization (single-source domain generalization) and domain adaptation.
 The model is developed following a causal reasoning process, and prediction is made by leveraging the causal invariance principle.
