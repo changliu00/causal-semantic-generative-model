@@ -1,5 +1,5 @@
+cvxopt==1.2.7
 dalib==0.2
-gdown==3.13.0
 lime==0.2.0.1
 jupyter==1.0.0
 matplotlib==3.3.2
@@ -8,6 +8,4 @@ scikit-image==0.17.1
 tabulate==0.8.9
 torch==1.8.1
 torchvision==0.9.1
-torch_scatter==2.0.2
 tqdm==4.60.0
-wilds==1.1.0

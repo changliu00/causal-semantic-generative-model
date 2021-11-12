@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Customized
+*~
+*.swp
+
+ckpt_*
+data/
+DomainBed/
+

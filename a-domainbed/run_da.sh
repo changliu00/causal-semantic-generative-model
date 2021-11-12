@@ -27,22 +27,22 @@ case $1 in
 		$REPRUN $PYCMD $1 --testdoms 2 --wl2 5e-4 --wsup 1.   --wda 1e-2
 		$REPRUN $PYCMD $1 --testdoms 3 --wl2 5e-4 --wsup 1.   --wda 1e-2
 		##dataset VLCS
-		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 0 --wl2 5e-4 --wsup 1.   --wda 1e-2 --n_epk 20
-		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 1 --wl2 5e-4 --wsup 1.   --wda 1e-2 --n_epk 20
-		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 2 --wl2 5e-4 --wsup 1.   --wda 1e-2 --n_epk 20
-		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 3 --wl2 5e-4 --wsup 1.   --wda 1e-2 --n_epk 20
+		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 0 --wl2 5e-4 --wsup 1.   --wda 1e-2
+		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 1 --wl2 5e-4 --wsup 1.   --wda 1e-2
+		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 2 --wl2 5e-4 --wsup 1.   --wda 1e-2
+		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 3 --wl2 5e-4 --wsup 1.   --wda 1e-2
 		;;
 	bnm)
 		##dataset PACS
-		$REPRUN $PYCMD $1 --testdoms 0 --wl2 5e-4 --wsup 1.   --wda 1.   --n_epk 20
-		$REPRUN $PYCMD $1 --testdoms 1 --wl2 5e-4 --wsup 1.   --wda 1.   --n_epk 20
-		$REPRUN $PYCMD $1 --testdoms 2 --wl2 5e-4 --wsup 1.   --wda 1.   --n_epk 20
-		$REPRUN $PYCMD $1 --testdoms 3 --wl2 5e-4 --wsup 1.   --wda 1.   --n_epk 20
+		$REPRUN $PYCMD $1 --testdoms 0 --wl2 5e-4 --wsup 1.   --wda 1.
+		$REPRUN $PYCMD $1 --testdoms 1 --wl2 5e-4 --wsup 1.   --wda 1.
+		$REPRUN $PYCMD $1 --testdoms 2 --wl2 5e-4 --wsup 1.   --wda 1.
+		$REPRUN $PYCMD $1 --testdoms 3 --wl2 5e-4 --wsup 1.   --wda 1.
 		##dataset VLCS
-		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 0 --wl2 5e-4 --wsup 1.   --wda 1.   --n_epk 20
-		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 1 --wl2 5e-4 --wsup 1.   --wda 1.   --n_epk 20
-		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 2 --wl2 5e-4 --wsup 1.   --wda 1.   --n_epk 20
-		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 3 --wl2 5e-4 --wsup 1.   --wda 1.   --n_epk 20
+		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 0 --wl2 5e-4 --wsup 1.   --wda 1.
+		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 1 --wl2 5e-4 --wsup 1.   --wda 1.
+		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 2 --wl2 5e-4 --wsup 1.   --wda 1.
+		$REPRUN $PYCMD $1 --dataset VLCS --testdoms 3 --wl2 5e-4 --wsup 1.   --wda 1.
 		;;
 	svae-da) # CSGz-DA
 		##dataset PACS
