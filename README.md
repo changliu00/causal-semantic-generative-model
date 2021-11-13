@@ -13,11 +13,15 @@ Xinwei Sun, Jindong Wang, Haoyue Tang, Tao Li, Tao Qin, Wei Chen, Tie-Yan Liu.\
 
 ![graphical summary](./csg-intro.png)
 
-The work proposes a Causal Semantic Generative model (CSG) for OOD generalization (single-source domain generalization) and domain adaptation.
-The model is developed following a causal reasoning process, and prediction is made by leveraging the causal invariance principle.
+The work proposes a Causal Semantic Generative model (CSG) for OOD generalization (_single-source_ domain generalization) and domain adaptation.
+The model is developed following a causal reasoning process, and prediction is made by leveraging the _causal invariance principle_.
 Training and prediction algorithms are developed based on variational Bayes with a novel design.
 Theoretical guarantees on the identifiability of the causal factor and the benefits for OOD prediction are presented.
+
 This codebase implements the CSG methods, and implements or integrates various baselines.
+Most domain adaptation baselines (except [BNM](https://github.com/cuishuhao/BNM)) use the [dalib](https://github.com/thuml/Transfer-Learning-Library) package.
+The experiment setups on the PACS and VLCS datasets are adopted from the [domainbed](https://github.com/facebookresearch/DomainBed) repository.
+Authorships are clarified in each file or module.
 
 ## Requirements
 
@@ -38,7 +42,6 @@ Go to the respective folder and run the `prepare_data.sh` or `makedata.sh` scrip
 Run the `run_ood.sh` (for OOD generalization methods) and `run_da.sh` (for domain adaptation methods) scripts to train the models.
 Evaluation result (accuracy on the test domain) is printed and written to disk with the model and configurations.
 See the commands in the script files or `python3 main.py --help` for customized usage or hyperparameter tuning.
-Authorships are specified in each file or module.
 
 [changliu]: http://ml.cs.tsinghua.edu.cn/~changliu/index.html
 
