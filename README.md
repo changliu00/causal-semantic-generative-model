@@ -43,5 +43,5 @@ Run the `run_ood.sh` (for OOD generalization methods) and `run_da.sh` (for domai
 Evaluation result (accuracy on the test domain) is printed and written to disk with the model and configurations.
 See the commands in the script files or `python3 main.py --help` for customized usage or hyperparameter tuning.
 
-[changliu]: http://ml.cs.tsinghua.edu.cn/~changliu/index.html
+[changliu]: https://changliu00.github.io/
 
