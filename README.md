@@ -43,5 +43,20 @@ Run the `run_ood.sh` (for OOD generalization methods) and `run_da.sh` (for domai
 Evaluation result (accuracy on the test domain) is printed and written to disk with the model and configurations.
 See the commands in the script files or `python3 main.py --help` for customized usage or hyperparameter tuning.
 
+## Citation
+```
+@inproceedings{liu2021learning,
+  author = {Liu, Chang and Sun, Xinwei and Wang, Jindong and Tang, Haoyue and Li, Tao and Qin, Tao and Chen, Wei and Liu, Tie-Yan},
+  booktitle = {Advances in Neural Information Processing Systems},
+  editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+  pages = {6155--6170},
+  publisher = {Curran Associates, Inc.},
+  title = {Learning Causal Semantic Representation for Out-of-Distribution Prediction},
+  url = {https://proceedings.neurips.cc/paper/2021/file/310614fca8fb8e5491295336298c340f-Paper.pdf},
+  volume = {34},
+  year = {2021}
+}
+```
+
 [changliu]: https://changliu00.github.io/
 
